@@ -347,7 +347,7 @@ Example note: "F6, straight time: pages 1 and 2 explain why she left Ohio. Consi
 ## When to leave it alone
 
 - Quotations, titles, names, and passages that discuss a phrase rather than use it.
-- A habit the writer's sample shows on purpose.
+- A habit the writer's voice shows on purpose.
 - Greetings and sign-offs on letters and emails; those are older than chatbots.
 - Text written before late 2022, when chat models became public.
 - A single tell with no company. People who judge AI writing by feel do little better than a coin flip, and human writers now pick up AI habits too. Clusters are the evidence.

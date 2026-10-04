@@ -10,20 +10,21 @@ It does three jobs:
 
 ## Teach it your voice
 
-Point Polish at your own human-written work:
+Polish keeps two kinds of voice, saved separately:
 
-- a folder on Google Drive, Dropbox, OneDrive, or your computer;
-- your blog or newsletter (give the URL);
-- past documents, emails, or posts you wrote.
+- **Personal voice** (`voice.md`) for your own emails, posts, and bios. Sources: your LinkedIn posts, your Gmail Sent folder, your blog or newsletter, or a Drive, Dropbox, or local folder of your writing.
+- **Company voice** (`brand-voice.md`) for website copy, ads, newsletters, and help docs. Sources: brand guidelines, the company website, and past copy the team wrote.
 
-Polish checks each piece for AI tells and skips any that look machine-written. Work from before late 2022 is the safest source. It then builds a short voice profile (sentence length, favorite words, punctuation, how you open and close, how you joke and hedge), shows it to you for corrections, and can save it as `voice.md` so it does not have to reread everything next time.
+A voice source only helps if a person wrote it. If you used AI to write email (for example Gmail's "Help me write") or LinkedIn posts, Polish would learn the AI's habits instead of yours. Polish warns you about this, checks each piece for AI tells, skips pieces that look machine-written, and prefers work from before late 2022.
+
+It then builds a short profile (sentence length, favorite words, punctuation, how you open and close, how you joke and hedge), shows it to you for corrections, and saves it so it does not have to reread everything next time.
 
 Example:
 
 ```
 /polish
 
-My voice: the "Writing" folder in my Google Drive, and my blog at example.com/blog.
+My voice: my LinkedIn posts and my Gmail sent mail from before 2023.
 
 Text to polish:
 [paste text]

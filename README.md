@@ -4,7 +4,7 @@
 
 Polish reads writing you did yourself, such as old LinkedIn posts, sent email, or a blog. It skips pieces that show AI habits and builds a voice profile you can correct. Then it marks each AI habit in your draft with a short code, rewrites the draft in your voice, and checks that every name, number, and quote is still there.
 
-In one test on a 270-word LinkedIn post, Polish found 7 AI habits and cut the post's score from 5.6 to 0.8 points per 100 words (Polish's own rubric, not an AI detector), with no facts lost. For fiction, it uses findings from a study of about 61,000 stories and gives you story notes instead of rewriting your plot.
+In one test on a 270-word LinkedIn post, Polish found 7 AI habits and cut the post's score from 5.6 to 0.8 points per 100 words (Polish's own rubric, not an AI detector), with no facts lost. For fiction, it uses findings from [StoryScope](https://arxiv.org/abs/2604.03136) (Russell et al., COLM 2026), a study of about 61,000 human and AI stories, and gives you story notes instead of rewriting your plot.
 
 To start, [install it](#install) with two commands, then type `/polish` and paste a draft.
 

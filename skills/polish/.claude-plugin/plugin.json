@@ -1,14 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "polish",
-  "description": "Edit AI-sounding writing so it reads like a person wrote it, with every fact intact.",
+  "description": "Edit AI drafts in your own voice, learned from what you wrote before AI.",
   "version": "1.0.0",
   "author": {
     "name": "Russ Page",
     "url": "https://github.com/russpage"
   },
-  "homepage": "https://github.com/russpage/polish",
-  "repository": "https://github.com/russpage/polish",
+  "homepage": "https://github.com/russpage/writing/tree/main/skills/polish",
+  "repository": "https://github.com/russpage/writing",
   "license": "MIT",
   "keywords": ["writing", "editing", "voice", "fiction", "prose"],
   "skills": ["./"]

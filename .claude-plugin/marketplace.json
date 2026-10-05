@@ -1,16 +1,16 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "polish",
+  "name": "writing",
   "owner": {
     "name": "Russ Page",
     "url": "https://github.com/russpage"
   },
-  "description": "Install Polish as a Claude plugin.",
+  "description": "Writing skills by Russ Page.",
   "plugins": [
     {
       "name": "polish",
-      "source": "./",
-      "description": "Edit AI-sounding writing so it reads like a person wrote it, with every fact intact.",
+      "source": "./skills/polish",
+      "description": "Edit AI drafts in your own voice, learned from what you wrote before AI.",
       "license": "MIT",
       "keywords": ["writing", "editing", "voice", "fiction", "prose"]
     }

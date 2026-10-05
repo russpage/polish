@@ -1,8 +1,16 @@
 # Polish
 
-Polish is a skill for Claude and other AI agents. It edits writing that sounds machine-made until it sounds like the person who wrote it. It changes how things are said, never what is said.
+**Edit AI drafts in your own voice, learned from what you wrote before AI.**
 
-It does three jobs:
+Polish reads writing you did yourself, such as old LinkedIn posts, sent email, or a blog. It skips pieces that show AI habits and builds a voice profile you can correct. Then it marks each AI habit in your draft with a short code, rewrites the draft in your voice, and checks that every name, number, and quote is still there.
+
+In one test on a 270-word LinkedIn post, Polish found 7 AI habits and cut the post's score from 5.6 to 0.8 points per 100 words (Polish's own rubric, not an AI detector), with no facts lost. For fiction, it uses findings from a study of about 61,000 stories and gives you story notes instead of rewriting your plot.
+
+To start, [install it](#install) with two commands, then type `/polish` and paste a draft.
+
+## What it does
+
+Polish is a skill for Claude and other AI agents. It does three jobs:
 
 1. **Removes AI tells** from any prose: straw contrasts ("It isn't X, it's Y"), recap endings, announced points, reflex triplets, dash habits, inflated importance, brochure words, label lists, and chat leftovers.
 2. **Fixes AI fiction**: explained themes, emotion told only through physical sensation, scenes crowded with smells, weather that copies the mood, vague allusions, and tidy one-thread plots. Story-level problems come back as notes for the writer, not rewrites.

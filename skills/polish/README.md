@@ -37,6 +37,14 @@ For stories, Polish uses findings from [StoryScope](https://arxiv.org/abs/2604.0
 - It edits sentences that explain the story's meaning, show every feeling only through the body ("her chest tightened"), put a smell in every scene, or make the weather match the mood.
 - It does not rewrite your plot. Problems like a single storyline, events told strictly in order, or a neat inner-peace ending come back as up to five notes for you to decide on.
 
+## Plain technical mode
+
+For procedures, setup steps, help articles, and technical explanations, ask Polish for "plain technical" mode. It applies rules adapted from ASD-STE100, the Simplified Technical English used in aircraft manuals: short sentences, one instruction per sentence, commands for steps, active voice, and one word for one meaning. Polish does not use this mode on personal or marketing writing unless you ask, because it removes voice.
+
+> **Before:** In order to ensure optimal performance, it is recommended that the cache be cleared by the user on a periodic basis.
+>
+> **After:** Clear the cache regularly. Old temporary files can make the app slow.
+
 ## Teach it your voice
 
 Polish keeps two voices, saved as separate files:
@@ -94,6 +102,7 @@ A language model picks the most likely next word, so its default choices are ave
 ## Sources
 
 - Wikipedia, [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup.
+- ASD-STE100 Simplified Technical English, [the specification](https://www.asd-ste100.org/), for plain technical mode.
 - Russell, Rajendhran, Pham, Iyyer, and Wieting, [StoryScope: Investigating idiosyncrasies in AI fiction](https://arxiv.org/abs/2604.03136), COLM 2026.
 
 ## License

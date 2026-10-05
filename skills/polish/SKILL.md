@@ -117,7 +117,35 @@ Show the profile to the user the first time and ask them to correct it. Then off
 - **Pasted text:** a short list of the tells you found, then the polished text. Name each tell in plain words first, with its code in brackets, for example "Announcing the point (S3)". Readers do not know the codes.
 - **A file:** save just the polished text into the file. Touch prose and nothing else; leave code, commands, paths, data, front matter, and link targets as they are. Then give the user a two- or three-line summary.
 - **Called by another task** (a commit message, a PR description, a document): return only the polished text.
+- **Plain technical mode:** the same formats; name the mode at the top of the tell list.
 - **Fiction:** in every mode, add up to five story notes from F6 after the text, or in the summary for a file.
+
+## Plain technical mode
+
+Some text exists to be understood and acted on, not to sound like a person: procedures, setup steps, manuals, help articles, technical explanations, and summaries of AI output a reader must check. For this text, Polish can also apply rules adapted from ASD-STE100 (Simplified Technical English), the controlled language that aircraft maintenance manuals use.
+
+**When to use it**
+- Use it when the user asks for it ("plain technical," "STE," "simplified technical English"), or when the text is a procedure or technical explanation and the user gives no voice.
+- Do not use it on personal posts, emails, marketing copy, or fiction unless the user asks. It removes voice, and voice is the point there.
+- Aim for most of the way to the standard, not all of it. The full standard has a controlled dictionary that most readers do not need. Follow the rules below, and use common words in their most common meaning.
+
+**Rules**
+1. **Short sentences.** At most 20 words in a step, and at most 25 words in a description.
+2. **One instruction per sentence.** Give two actions in one sentence only when the reader must do them at the same time.
+3. **Commands for steps.** Start a step with the verb: "Remove the cover." Put a condition first: "If the light is red, stop the pump."
+4. **Active voice.** Name who or what does the action. In descriptions, keep passive voice rare.
+5. **Simple verb forms.** Use the simple present, simple past, or future. Do not use "-ing" words as verbs.
+6. **One word, one meaning.** Pick one term for each thing and use it every time. Do not switch between synonyms.
+7. **Short noun groups.** No more than three nouns in a row: not "server access log retention policy," but "the policy for how long to keep server access logs."
+8. **Keep the small words.** Keep "the," "a," and "that" where they make the sentence clearer.
+9. **Short paragraphs.** One topic per paragraph, and at most six sentences.
+10. **Warnings first.** Start a warning or caution with the command, then give the reason: "Disconnect the power. The board can hold a charge."
+
+All of Polish's other rules still apply: keep every fact, cut recaps and announcements, and add nothing new.
+
+> Before: In order to ensure optimal performance, it is recommended that the cache be cleared by the user on a periodic basis, as accumulated temporary files can potentially result in slowdowns.
+> After: Clear the cache once a week. Old temporary files can make the app slow.
+> (Only if "once a week" comes from the source. Otherwise: "Clear the cache regularly.")
 
 ## S. Sentence moves
 
@@ -385,4 +413,5 @@ Protect what makes the writing sound like one person:
 ## Sources
 
 - Wikipedia, ["Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the field guide maintained by WikiProject AI Cleanup. Polish uses its categories of tells as a starting point; the wording and examples here are new.
+- ASD-STE100 Simplified Technical English ([asd-ste100.org](https://www.asd-ste100.org/)). Source of the rules in plain technical mode, adapted and shortened; this skill does not include the standard's controlled dictionary.
 - Jenna Russell, Rishanth Rajendhran, Chau Minh Pham, Mohit Iyyer, and John Wieting, ["StoryScope: Investigating idiosyncrasies in AI fiction"](https://arxiv.org/abs/2604.03136), COLM 2026. Source of the fiction section, the figures in it, and the finding that AI choices cluster near the average.

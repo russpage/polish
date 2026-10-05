@@ -114,7 +114,7 @@ Show the profile to the user the first time and ask them to correct it. Then off
 
 ## What to return
 
-- **Pasted text:** a short list of the tells you found (codes and a few words each), then the polished text.
+- **Pasted text:** a short list of the tells you found, then the polished text. Name each tell in plain words first, with its code in brackets, for example "Announcing the point (S3)". Readers do not know the codes.
 - **A file:** save just the polished text into the file. Touch prose and nothing else; leave code, commands, paths, data, front matter, and link targets as they are. Then give the user a two- or three-line summary.
 - **Called by another task** (a commit message, a PR description, a document): return only the polished text.
 - **Fiction:** in every mode, add up to five story notes from F6 after the text, or in the summary for a file.
